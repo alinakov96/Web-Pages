@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+.d-flex{
+  display: flex;
+}
+
+header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #bbb;
+}
+
+a {
+  color:#222;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header-content{
+  justify-content: space-between;
+}
+
+.container{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav-bar {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.logo, .footer-logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 700;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #fff;
+  margin: 0;
+}
+
+.hero-content h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.btn-main {
+  background-color: #222;
+  padding: 1rem 4rem;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-main:hover {
+  background-color: #fff;
+  color: #222;
+}
+
+.primary-bg {
+  background-color: #A1BA89;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.grid {
+  display: grid;
+}
+.col2-col1 {
+  grid-template-columns: 2fr 1fr;
+}
+
+.section-padding {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.call-to-action-btn {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.section-heading {
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section-heading > span {
+  color: #fff;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.col-1-col-1 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.about-content-left p{
+  margin: 1rem;
+  margin-right: 0;
+}
+
+.about-content-right p{
+  margin: 1rem;
+  margin-left: 0;
+}
+
+.social-links > ul > li {
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid #222;
+  border-radius: 10%;
+  font-size: 1.1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.social-links > ul > li:hover {
+  background-color: #A1BA89;
+}
+
+.services {
+  background-color: #fafaff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-1-col-1-col-1 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service, .team {
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 4px 0px #aaa;
+  border-radius: 5%;
+  margin: 1rem;
+}
+
+.service-icon > i {
+  padding: 1rem 1.4rem;
+  background-color: #A1BA89;
+  border-radius: 50%;
+  border: 2px solid #222;
+}
+
+.service i {
+  font-size: 2.5rem;
+
+}
+
+.service h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.team {
+  padding: 0;
+}
+
+.team h3 {
+  font-size: 1.2rem;
+}
+
+.team-content {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: none;
+  background-color: #fafaff;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px 0px #aaa;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.contact {
+  background-image: url("../assets/img/contact.jpg");
+  background-size: cover;
+}
+
+.contact label {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer p {
+  margin-top: 1rem;
+}
+
+.footer h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer li {
+  margin-bottom: 0.5rem;
+}
+
+@media(max-width: 500px) {
+  .col-1-col-1, .col-2-col-1, .col-1-col-1-col-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .header .d-flex {
+    flex-direction: column;
+  }
+
+  nav {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .nav-bar li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0;
+    border-top: 1px solid #222;
+  }
+
+  .m-border-bottom {
+    border-bottom: 1px solid #222;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .btn-main {
+    padding: 1rem 2rem;
+  }
+  .text-right {
+    text-align: center;
+  }
+
+  .call-to-action-btn {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .w-60 {
+    width: 100%;
+  }
+}
