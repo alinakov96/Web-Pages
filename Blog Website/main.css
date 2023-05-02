@@ -86,7 +86,7 @@ header {
 }
 
 header li {
-  margin: 0 1 rem;
+  margin: 0 1rem;
 }
 
 header .social-links,
@@ -96,6 +96,10 @@ header .info {
 header .info ul,
 header .social-links ul {
   justify-content: space-evenly;
+}
+
+header .info ul li a i {
+  margin: 0 1rem;
 }
 
 .logo {
